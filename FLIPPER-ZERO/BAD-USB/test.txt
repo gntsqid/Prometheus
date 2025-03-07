@@ -1,0 +1,14 @@
+REM This is a comment
+
+REM Adding a 1 second delay between every command
+DEFAULT_DELAY 1000
+
+REM Print a string followed by new-line
+STRINGLN This is a test!
+STRING One Second has passed since saying that.
+STRING .
+STRING .
+STRING .
+ENTER
+STRINGLN ALL DONE!
+

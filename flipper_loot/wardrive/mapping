@@ -1,0 +1,34 @@
+{
+    "properties": {
+      "channel": {
+        "type": "long"
+      },
+      "client_mac": {
+        "type": "keyword"
+      },
+      "encryption_type": {
+        "type": "keyword"
+      },
+      "id": {
+        "type": "long"
+      },
+      "location": {
+        "type": "geo_point"
+      },
+      "signal_strength": {
+        "type": "long"
+      },
+      "speed": {
+        "type": "double"
+      },
+      "ssid": {
+        "type": "keyword"
+      },
+      "timestamp": {
+        "type": "keyword"
+      },
+      "type": {
+        "type": "keyword"
+      }
+    }
+  }
